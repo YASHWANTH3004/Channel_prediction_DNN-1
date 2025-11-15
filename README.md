@@ -4,3 +4,59 @@ The performance of modern wireless communications systems depends critically on 
 This repository is the code from implemented in the manuscript "A Comparison of Neural Networks for Wireless Channel Prediction". It should be stressed that this repository is just an illustration of th epredictions. Due to Github's restriction of file sizes, the original data set could not be uploaded. This also caused some minor edits in the prediction scheme. This is just a concetpual demo of the outline of the data and how the predictions were conducted. The neural network parameters are exactly the same as in the original code, but due to the mentioned changes, the results are not identical. 
 
 The code inputs simulated data from the 3GPP standardized TDL-A model and outputs predicted channel data on a desired time horizon. The results are measured in mean squared error (MSE) and the code outputs the best obtained MSE for each sceanrio in a csv file once complete.
+
+
+# 🧩 Project Setup Guide
+
+Follow the steps below to set up the environment and run the files successfully.
+
+---
+
+## 🚀 Steps to Install Required Packages and Run the Files
+
+### Step 1: Create a Virtual Environment
+```bash
+python -m venv venv
+```
+
+### Step 2: Activate the Virtual Environment
+
+On Windows:
+```bash
+venv\Scripts\activate
+```
+
+On macOS/Linux:
+```bash
+source venv/bin/activate
+```
+
+### Step 3: Install Required Packages
+
+Run the following commands to install the necessary Python packages:
+
+For generating PowerPoint files:
+
+``` bash
+pip install scipy numpy pandas matplotlib seaborn scikit-learn torch torchvision torchaudio
+```
+
+### Step 4: Select the Virtual Environment Kernel (For Jupyter Notebooks)
+
+When you open your .ipynb file:
+
+Click Select Kernel at the top right
+
+Choose:
+```
+Python 3.x (venv)
+```
+
+This ensures your notebook runs inside the virtual environment.
+
+### Step 5: Run the File
+Click:
+```
+Run All
+```
+or execute cells one by one.
