@@ -38,7 +38,7 @@ Run the following commands to install the necessary Python packages:
 For generating PowerPoint files:
 
 ``` bash
-pip install scipy numpy pandas matplotlib seaborn scikit-learn torch torchvision torchaudio
+pip install scipy numpy pandas matplotlib seaborn scikit-learn torch torchvision torchaudio tqdm
 ```
 
 ### Step 4: Select the Virtual Environment Kernel (For Jupyter Notebooks)
